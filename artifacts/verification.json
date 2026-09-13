@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "all graph chunk SHA256 checks",
+    "CSR node/edge/synapse totals",
+    "batch independence",
+    "state reset",
+    "recurrent intervention changes features",
+    "signed directed motif",
+    "disjoint train/validation indices",
+    "HTTP input validation",
+    "held-out sample inference and probability normalization",
+    "handwriting preprocessing"
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "dataset": "MNIST",
+  "train_size": 10000,
+  "validation_size": 2000,
+  "test_size": 10000,
+  "test_accuracy": 0.9616000056266785,
+  "recurrent_disabled_test_accuracy": 0.9549000263214111,
+  "pixel_baseline_test_accuracy": 0.9559000134468079,
+  "neurons": 166700,
+  "directed_edges": 25582938,
+  "synapse_count": 124177617,
+  "seed": 328,
+  "device": "cpu",
+  "gpu": null,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.43323771276474,
+      "validation_accuracy": 0.9415000081062317
+    },
+    {
+      "epoch": 2,
+      "loss": 0.16351155784130098,
+      "validation_accuracy": 0.9465000033378601
+    },
+    {
+      "epoch": 3,
+      "loss": 0.09994042601585389,
+      "validation_accuracy": 0.9495000243186951
+    },
+    {
+      "epoch": 4,
+      "loss": 0.07304999424815178,
+      "validation_accuracy": 0.9555000066757202
+    },
+    {
+      "epoch": 5,
+      "loss": 0.05072916905879974,
+      "validation_accuracy": 0.9559999704360962
+    },
+    {
+      "epoch": 6,
+      "loss": 0.053151414740085605,
+      "validation_accuracy": 0.9585000276565552
+    },
+    {
+      "epoch": 7,
+      "loss": 0.043799746066331864,
+      "validation_accuracy": 0.9505000114440918
+    },
+    {
+      "epoch": 8,
+      "loss": 0.023117716774344443,
+      "validation_accuracy": 0.9580000042915344
+    },
+    {
+      "epoch": 9,
+      "loss": 0.01931834899187088,
+      "validation_accuracy": 0.9570000171661377
+    },
+    {
+      "epoch": 10,
+      "loss": 0.017855445344513284,
+      "validation_accuracy": 0.9580000042915344
+    },
+    {
+      "epoch": 11,
+      "loss": 0.011529949383623898,
+      "validation_accuracy": 0.9614999890327454
+    },
+    {
+      "epoch": 12,
+      "loss": 0.008160369143914431,
+      "validation_accuracy": 0.9559999704360962
+    },
+    {
+      "epoch": 13,
+      "loss": 0.008607243232429028,
+      "validation_accuracy": 0.9589999914169312
+    },
+    {
+      "epoch": 14,
+      "loss": 0.008738976544141769,
+      "validation_accuracy": 0.9610000252723694
+    },
+    {
+      "epoch": 15,
+      "loss": 0.012110016750916839,
+      "validation_accuracy": 0.9624999761581421
+    },
+    {
+      "epoch": 16,
+      "loss": 0.011472372657060623,
+      "validation_accuracy": 0.9589999914169312
+    },
+    {
+      "epoch": 17,
+      "loss": 0.008502846892923117,
+      "validation_accuracy": 0.9605000019073486
+    },
+    {
+      "epoch": 18,
+      "loss": 0.007828784390556393,
+      "validation_accuracy": 0.9595000147819519
+    },
+    {
+      "epoch": 19,
+      "loss": 0.007073003159556538,
+      "validation_accuracy": 0.9574999809265137
+    },
+    {
+      "epoch": 20,
+      "loss": 0.008427928484883159,
+      "validation_accuracy": 0.9564999938011169
+    },
+    {
+      "epoch": 21,
+      "loss": 0.006766203361388762,
+      "validation_accuracy": 0.9610000252723694
+    },
+    {
+      "epoch": 22,
+      "loss": 0.005398177165864036,
+      "validation_accuracy": 0.9639999866485596
+    },
+    {
+      "epoch": 23,
+      "loss": 0.007500645396113396,
+      "validation_accuracy": 0.9605000019073486
+    },
+    {
+      "epoch": 24,
+      "loss": 0.012104893881455064,
+      "validation_accuracy": 0.9570000171661377
+    },
+    {
+      "epoch": 25,
+      "loss": 0.012946478082239627,
+      "validation_accuracy": 0.9610000252723694
+    }
+  ],
+  "baseline_history": [
+    {
+      "epoch": 1,
+      "loss": 0.804363955783844,
+      "validation_accuracy": 0.8999999761581421
+    },
+    {
+      "epoch": 2,
+      "loss": 0.2714792586803436,
+      "validation_accuracy": 0.934499979019165
+    },
+    {
+      "epoch": 3,
+      "loss": 0.19716788192987442,
+      "validation_accuracy": 0.9390000104904175
+    },
+    {
+      "epoch": 4,
+      "loss": 0.15208029389381408,
+      "validation_accuracy": 0.9434999823570251
+    },
+    {
+      "epoch": 5,
+      "loss": 0.12525269238948822,
+      "validation_accuracy": 0.9459999799728394
+    },
+    {
+      "epoch": 6,
+      "loss": 0.10281170949935912,
+      "validation_accuracy": 0.9465000033378601
+    },
+    {
+      "epoch": 7,
+      "loss": 0.08888151866197586,
+      "validation_accuracy": 0.9440000057220459
+    },
+    {
+      "epoch": 8,
+      "loss": 0.07059726861715317,
+      "validation_accuracy": 0.9505000114440918
+    },
+    {
+      "epoch": 9,
+      "loss": 0.05821366219520569,
+      "validation_accuracy": 0.953000009059906
+    },
+    {
+      "epoch": 10,
+      "loss": 0.05125201097726822,
+      "validation_accuracy": 0.9484999775886536
+    },
+    {
+      "epoch": 11,
+      "loss": 0.04071689651459456,
+      "validation_accuracy": 0.953000009059906
+    },
+    {
+      "epoch": 12,
+      "loss": 0.03392843670770526,
+      "validation_accuracy": 0.9539999961853027
+    },
+    {
+      "epoch": 13,
+      "loss": 0.029636770017445087,
+      "validation_accuracy": 0.9559999704360962
+    },
+    {
+      "epoch": 14,
+      "loss": 0.02679798635840416,
+      "validation_accuracy": 0.9570000171661377
+    },
+    {
+      "epoch": 15,
+      "loss": 0.023243511582165956,
+      "validation_accuracy": 0.9555000066757202
+    },
+    {
+      "epoch": 16,
+      "loss": 0.019837427008152008,
+      "validation_accuracy": 0.9549999833106995
+    },
+    {
+      "epoch": 17,
+      "loss": 0.018734767669439316,
+      "validation_accuracy": 0.9564999938011169
+    },
+    {
+      "epoch": 18,
+      "loss": 0.016929566110670567,
+      "validation_accuracy": 0.9580000042915344
+    },
+    {
+      "epoch": 19,
+      "loss": 0.014607815539836883,
+      "validation_accuracy": 0.9570000171661377
+    },
+    {
+      "epoch": 20,
+      "loss": 0.014223486299067736,
+      "validation_accuracy": 0.9585000276565552
+    },
+    {
+      "epoch": 21,
+      "loss": 0.012288342861831189,
+      "validation_accuracy": 0.9570000171661377
+    },
+    {
+      "epoch": 22,
+      "loss": 0.010441021730005742,
+      "validation_accuracy": 0.9555000066757202
+    },
+    {
+      "epoch": 23,
+      "loss": 0.009208492162078618,
+      "validation_accuracy": 0.9574999809265137
+    },
+    {
+      "epoch": 24,
+      "loss": 0.008234075444936753,
+      "validation_accuracy": 0.9559999704360962
+    },
+    {
+      "epoch": 25,
+      "loss": 0.008040141171216965,
+      "validation_accuracy": 0.9574999809265137
+    }
+  ],
+  "confusion_matrix": [
+    [
+      967,
+      0,
+      1,
+      1,
+      0,
+      1,
+      6,
+      2,
+      2,
+      0
+    ],
+    [
+      0,
+      1116,
+      7,
+      2,
+      0,
+      1,
+      4,
+      1,
+      4,
+      0
+    ],
+    [
+      6,
+      2,
+      1000,
+      7,
+      4,
+      0,
+      1,
+      8,
+      4,
+      0
+    ],
+    [
+      1,
+      1,
+      9,
+      976,
+      0,
+      7,
+      1,
+      7,
+      5,
+      3
+    ],
+    [
+      1,
+      0,
+      8,
+      0,
+      952,
+      0,
+      2,
+      1,
+      1,
+      17
+    ],
+    [
+      5,
+      2,
+      1,
+      22,
+      2,
+      844,
+      9,
+      1,
+      3,
+      3
+    ],
+    [
+      11,
+      3,
+      2,
+      1,
+      11,
+      3,
+      920,
+      2,
+      4,
+      1
+    ],
+    [
+      1,
+      6,
+      15,
+      7,
+      4,
+      1,
+      0,
+      974,
+      3,
+      17
+    ],
+    [
+      9,
+      1,
+      4,
+      22,
+      10,
+      8,
+      4,
+      8,
+      904,
+      4
+    ],
+    [
+      8,
+      6,
+      0,
+      10,
+      9,
+      3,
+      1,
+      5,
+      4,
+      963
+    ]
+  ],
+  "elapsed_seconds": 21.92,
+  "manifest_sha256": "76262f41c76f5dcbc42f75f9e0b376e46bfdac13d8c00bae2edbdc49b270565b",
+  "model_sha256": "b6bf27b2322f3ea66f9640ac58bf2569d717c45a9293aa2bf561709233af360b",
+  "train_sha256": "a90829ed1cf36deb18fff488fa9462df95cd080430d86f73f098935b67b2868b",
+  "limitations": [
+    "Artificial image encoder, fixed rate reservoir, trained MLP readout; not the LIF movement simulator.",
+    "Input is mapped across all retained neurons, not a reconstructed retina.",
+    "Zero-sign outputs have no fast current, following the upstream transmitter assumptions.",
+    "Pixel baseline uses the same hidden width, not a matched parameter count.",
+    "Recurrent-disabled is an intervention without retraining; not proof of biological advantage.",
+    "Single seed; no claim of biological learning or superiority over conventional networks."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "build": "passed",
+  "integration": [
+    "recognize action in simulator",
+    "sample 7 recognized as 7",
+    "4 rate-state frames rendered on brain",
+    "body ID checked before rendering",
+    "return-to-movement and Walk verified",
+    "training launched from simulator button",
+    "duplicate training returns HTTP 409",
+    "full training completed",
+    "personal learning checkpoint reload tested in isolated directory"
+  ],
+  "training_seconds": 140.93,
+  "test_accuracy": 0.9616000056266785,
+  "ui_handwriting_learning": {
+    "label": 1,
+    "prediction_after": 1,
+    "lessons": 1,
+    "changed_parameters": 1051402,
+    "persisted": true
+  }
+}
